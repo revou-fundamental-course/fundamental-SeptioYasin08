@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pond's men Acne Solution</title>
+    <link rel="stylesheet" href=".css/style.css">
+    <script src=".js/script.js"></script>  
+</head>
+<body>
+    <header>
+            <img src="img/download3.jpg" alt="Pond's men Acne Solution Logo">
+        <br/>
+        <p>Let's Try our Product</p>
+    </header>
+
+    <nav>
+        <h2>Pond's men</h2>
+        <div class="container">
+            <a href="#">Home</a>
+            <a href="#our-profile">Our Profile</a>
+            <a href="#our-portofolio">Portfolio</a>
+            <a href="#our-message">Message Us</a>
+        </div>
+    </nav>
+
+    <main>
+        <section >
+            <p id="greeting">Hello <span id="username"></span> , Welcome To Pond's men</p>
+            <br/>
+            <img id="banner" src="img/download2.jpg" alt="Pond's men Acne Solution" >
+            <br/>
+            <h2 id="our-profile" class="subjudul">Our Profile</h2>
+            <p>Pond's Men Acne Solution AntiAcne Face Wash dengan Teknologi Paten Lock & Clear dapat mengunci dan menghilangkan bakteri penyebab jerawat dalam 3 hari! </p>
+        </section>
+            <br/>
+        <section id="our-headquarters" >
+            <h2 class="subjudul">Our Headquarters</h2>
+            <br/>
+                <img id="kantor" src="img/dowloand4.jpg" alt="Kantor Cabang" >
+            </div>
+            <br/>
+            <h3 class="alamat">Jakarta Selatan</h3>
+            <p class="alamat">Menara Kuningan, Jl. H. R. Rasuna Said No.kav 5, RT.6/RW.7, Kuningan, Karet Kuningan, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12940</p>
+        </section>
+    </main>
+    <section id="our-portofolio" >
+        <h2 class="subjudul">Portfolio</h2>
+        <div id="porto">
+            <img src="img/download1.jpg" alt="Sabun Cuci Muka"/>
+            <ul type="none">
+                <li>Pond's men Acne Solution, kandungan utama dan cara penggunaan:
+                <ul type="round">
+                    <li>Pond's Men Acne Solution AntiAcne Face Wash dengan Teknologi Paten Lock & Clear dapat mengunci dan menghilangkan bakteri penyebab jerawat dalam 3 hari!</li>
+                    <li>Formulasi Khusus
+                        <br>
+                        Diformulasikan dengan Thymol-T Lock & Clear Technology yang telah dipatenkan untuk mengunci bakteri penyebab jerawat & mengurangi bakteri penyebab jerawat dan mencegahnya balik lagi**. Setelah pemakaian pertama mampu membunuh 99% bakteri dalam 10 detik dan mengurangi jerawat yang tampak dalam 3 hari^. Dengan pemakaian teratur, kulit akan semakin bersih dari masalah jerawat dan Anda pun bisa tampil lebih percaya diri. Rasakan sendiri perubahannya!</li> 
+                    <li>Lihat semua bahan-bahan
+                        <br>
+                        Myristic Acid, Glycerin, Water, Propylene Glycol, Potassium Hydroxide, Stearic Acid, Glycol Distearate, Lauric Acid, Decyl Glucoside, Glyceryl Stearate, Perfume, Menthol, Terpineol, Phenoxyethanol, Salicylic Acid, Thymol, Polyquaternium-7, Disodium EDTA, PEG-4 Dilaurate, PEG-4 Laurate, Iodopropynyl Butylcarbamate, PEG-4, Sodium Benzoate, Niacinamide, Sodium Chloride, Sodium Sulfate, CI 19140, CI 42090 </li>
+                    <li>penggunaan
+                        <br>
+                        Gunakan setiap hari. 2. Basahi wajah. Keluarkan sedikit di telapak tangan dan beri air hingga berbusa. 3. Pijat wajah secara perlahan dan hindari area mata, kemudian bilas dengan air. 4. Untuk hasil terbaik, gunakan bersama dengan POND'S MEN Acne Solution AntiAcne Treatment Gel.</li>
+        <br>
+        </div>
+    </section>
+
+    <section id="our-message" >
+        <h2 class="subjudul">Message Us</h2>
+        <form method="post" action="formulir.php">
+            <table>
+            <tr>    
+            <td><label for="nama">Nama </label></td>
+            <td><input type="text" id="nama" placeholder="Nama Anda"></td>
+            </tr>
+            <tr>
+            <td><label for="tgl">Tanggal Lahir </label></td>
+            <td><input type="date" id="tgl"><br></td>
+            </tr>
+            <tr>    
+            <td><label for="jk">Jenis Kelamin </label></td>
+            <td><input type="radio" id="jk1" name="jk" value="Laki-Laki">
+            <label for="jk1">Laki-laki</label></td>
+            <td><input type="radio" id="jk2" name="jk" value="Perempuan">
+            <label for="jk2">Perempuan</label>
+            </td></tr>
+            <tr>
+            <td><label for="pesan">Pesan </label></td>
+            <td rowspan="2"><textarea id="pesan"  placeholder="Masukkan pesan Anda" ></textarea></td></tr>
+            <tr></tr>
+            <tr>
+            <td><button type="button" id="kirim" onclick="validateForm();" >Submit</button></td></tr>
+            </table>
+        </form>
+        <div id="result" ></div>
+    </section>
+</body>
+</html>
