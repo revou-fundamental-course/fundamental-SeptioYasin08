@@ -36,4 +36,4 @@ function setSenderUI(nama, tgl, jk, pesan) {
         <p>Pesan: ${pesan}</p>
         <p>Waktu : ${currentTime}</p>
     `;
-}
+ }
